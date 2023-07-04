@@ -1,0 +1,16 @@
+server:
+  port: 8069
+  error:
+    include-message: always
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: dbmasteruser
+    url: jdbc:mysql://ls-a33f3478b71c718313c5f4de2c07e3eda6e6260a.cmaypllbbxdd.us-east-1.rds.amazonaws.com:3306/bdexamenfinal
+    password: h46282747
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
